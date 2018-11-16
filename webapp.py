@@ -5,16 +5,16 @@ app = Flask(__name__)
 
 def fun_fact(state):
     with open('state_demographics.json') as demographics_data:
-        state = json.load(demographics_data)
+        states = json.load(demographics_data)
     boi = 0
     higheststate = ''
-    for state in states:
+    for s in states:
         print(state)
-        if state["State"] == state:
+        if s["State"] == state:
             print("here")
-            if (state['Income']['Median Household Income'] > boi):
-                boi = state['Income']['Median Household Income']
-                higheststate = state['State']
+            if (s['Income']['Median Household Income'] > boi):
+                boi = s['Income']['Median Household Income']
+                higheststate = s['State']
     return state + ' ' + higheststate + ' ' + str(boi)
     print(state)
 
