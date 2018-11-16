@@ -24,11 +24,11 @@ def render_main():
         print(state)
         ff=fun_fact(state)
         print(ff)
-        return render_template('home.html', states = get_state_options(counties), funfact = ff)
+        return render_template('home.html', states = get_state_options(states), funfact = ff)
     except:
-        return render_template('home.html', states = get_state_options(counties))
+        return render_template('home.html', states = get_state_options(states))
   
-def get_state_options(counties):
+def get_state_options(states):
   bom=[]
   
 
