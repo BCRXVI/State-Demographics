@@ -24,7 +24,6 @@ def render_main():
         states = json.load(demographics_data)
     try:
         state = request.args['states']
-        print(state)
         ff=fun_fact(state)
         print(ff)
         return render_template('home.html', states = get_state_options(states), funfact = ff)
