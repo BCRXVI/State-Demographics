@@ -9,6 +9,7 @@ def fun_fact(state):
     boi = 0
     higheststate = ''
     for state in states:
+        print(state)
         if state["State"] == state:
             print("here")
             if (state['Income']['Median Household Income'] > boi):
