@@ -14,6 +14,7 @@ def fun_fact(state):
                 boi = state['Income']['Median Household Income']
                 higheststate = state['State']
     return state + ' ' + higheststate + ' ' + str(boi)
+    print(state)
 
 @app.route("/") #annotation tells the URL that will make this function run
 def render_main():
