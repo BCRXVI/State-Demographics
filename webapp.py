@@ -9,10 +9,10 @@ def fun_fact(state):
     boi = 0
     higheststate = ''
     for s in states:
-        print(state)
         if s["State"] == state:
-            print("here")
+            
             if (s['Income']['Median Household Income'] > boi):
+                print("here") 
                 boi = s['Income']['Median Household Income']
                 higheststate = s['State']
     return state + ' ' + higheststate + ' ' + str(boi)
