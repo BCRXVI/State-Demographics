@@ -33,7 +33,7 @@ def get_state_options(states):
   
 
   
-  for county in counties:
+  for state in states:
     state = state["State"]
     trfl = state in bom
     if (trfl == False):
