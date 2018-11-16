@@ -8,9 +8,9 @@ def fun_fact(state):
         state = json.load(demographics_data)
     boi = 0
     higheststate = ''
-    print("here")
     for state in states:
         if state["State"] == state:
+            print("here")
             if (state['Income']['Median Household Income'] > boi):
                 boi = state['Income']['Median Household Income']
                 higheststate = state['State']
