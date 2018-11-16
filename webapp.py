@@ -8,6 +8,7 @@ def fun_fact(state):
         state = json.load(demographics_data)
     boi = 0
     higheststate = ''
+    print("here")
     for state in states:
         if state["State"] == state:
             if (state['Income']['Median Household Income'] > boi):
@@ -21,7 +22,6 @@ def render_main():
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
     try:
-        print("here")
         state = request.args['states']
         print(state)
         ff=fun_fact(state)
