@@ -34,7 +34,7 @@
     }, 
     "State": "United States", 
     "Income": {
-      "Median Houseold Income": 53046, 
+      "Median Household Income": 53046, 
       "Per Capita Income": 28155, 
       "Persons Below Poverty Level": 15.4
     }, 
@@ -107,7 +107,7 @@
     }, 
     "State": "Alabama", 
     "Income": {
-      "Median Houseold Income": 43253, 
+      "Median Household Income": 43253, 
       "Per Capita Income": 23680, 
       "Persons Below Poverty Level": 18.6
     }, 
@@ -180,7 +180,7 @@
     }, 
     "State": "Alaska", 
     "Income": {
-      "Median Houseold Income": 70760, 
+      "Median Household Income": 70760, 
       "Per Capita Income": 32651, 
       "Persons Below Poverty Level": 9.9
     }, 
@@ -253,7 +253,7 @@
     }, 
     "State": "Arizona", 
     "Income": {
-      "Median Houseold Income": 49774, 
+      "Median Household Income": 49774, 
       "Per Capita Income": 25358, 
       "Persons Below Poverty Level": 17.9
     }, 
@@ -326,7 +326,7 @@
     }, 
     "State": "Arkansas", 
     "Income": {
-      "Median Houseold Income": 40768, 
+      "Median Household Income": 40768, 
       "Per Capita Income": 22170, 
       "Persons Below Poverty Level": 19.2
     }, 
@@ -399,7 +399,7 @@
     }, 
     "State": "California", 
     "Income": {
-      "Median Houseold Income": 61094, 
+      "Median Household Income": 61094, 
       "Per Capita Income": 29527, 
       "Persons Below Poverty Level": 15.9
     }, 
@@ -472,7 +472,7 @@
     }, 
     "State": "Colorado", 
     "Income": {
-      "Median Houseold Income": 58433, 
+      "Median Household Income": 58433, 
       "Per Capita Income": 31109, 
       "Persons Below Poverty Level": 13.2
     }, 
@@ -545,7 +545,7 @@
     }, 
     "State": "Connecticut", 
     "Income": {
-      "Median Houseold Income": 69461, 
+      "Median Household Income": 69461, 
       "Per Capita Income": 37892, 
       "Persons Below Poverty Level": 10.2
     }, 
@@ -618,7 +618,7 @@
     }, 
     "State": "Delaware", 
     "Income": {
-      "Median Houseold Income": 59878, 
+      "Median Household Income": 59878, 
       "Per Capita Income": 29819, 
       "Persons Below Poverty Level": 11.7
     }, 
@@ -691,7 +691,7 @@
     }, 
     "State": "District Of Columbia", 
     "Income": {
-      "Median Houseold Income": 65830, 
+      "Median Household Income": 65830, 
       "Per Capita Income": 45290, 
       "Persons Below Poverty Level": 18.6
     }, 
@@ -764,7 +764,7 @@
     }, 
     "State": "Florida", 
     "Income": {
-      "Median Houseold Income": 46956, 
+      "Median Household Income": 46956, 
       "Per Capita Income": 26236, 
       "Persons Below Poverty Level": 16.3
     }, 
@@ -837,7 +837,7 @@
     }, 
     "State": "Georgia", 
     "Income": {
-      "Median Houseold Income": 49179, 
+      "Median Household Income": 49179, 
       "Per Capita Income": 25182, 
       "Persons Below Poverty Level": 18.2
     }, 
@@ -910,7 +910,7 @@
     }, 
     "State": "Hawaii", 
     "Income": {
-      "Median Houseold Income": 67402, 
+      "Median Household Income": 67402, 
       "Per Capita Income": 29305, 
       "Persons Below Poverty Level": 11.2
     }, 
@@ -983,7 +983,7 @@
     }, 
     "State": "Idaho", 
     "Income": {
-      "Median Houseold Income": 46767, 
+      "Median Household Income": 46767, 
       "Per Capita Income": 22568, 
       "Persons Below Poverty Level": 15.5
     }, 
@@ -1056,7 +1056,7 @@
     }, 
     "State": "Illinois", 
     "Income": {
-      "Median Houseold Income": 56797, 
+      "Median Household Income": 56797, 
       "Per Capita Income": 29666, 
       "Persons Below Poverty Level": 14.1
     }, 
@@ -1129,7 +1129,7 @@
     }, 
     "State": "Indiana", 
     "Income": {
-      "Median Houseold Income": 48248, 
+      "Median Household Income": 48248, 
       "Per Capita Income": 24635, 
       "Persons Below Poverty Level": 15.4
     }, 
@@ -1202,7 +1202,7 @@
     }, 
     "State": "Iowa", 
     "Income": {
-      "Median Houseold Income": 51843, 
+      "Median Household Income": 51843, 
       "Per Capita Income": 27027, 
       "Persons Below Poverty Level": 12.4
     }, 
@@ -1275,7 +1275,7 @@
     }, 
     "State": "Kansas", 
     "Income": {
-      "Median Houseold Income": 51332, 
+      "Median Household Income": 51332, 
       "Per Capita Income": 26929, 
       "Persons Below Poverty Level": 13.7
     }, 
@@ -1348,7 +1348,7 @@
     }, 
     "State": "Kentucky", 
     "Income": {
-      "Median Houseold Income": 43036, 
+      "Median Household Income": 43036, 
       "Per Capita Income": 23462, 
       "Persons Below Poverty Level": 18.8
     }, 
@@ -1421,7 +1421,7 @@
     }, 
     "State": "Louisiana", 
     "Income": {
-      "Median Houseold Income": 44874, 
+      "Median Household Income": 44874, 
       "Per Capita Income": 24442, 
       "Persons Below Poverty Level": 19.1
     }, 
@@ -1494,7 +1494,7 @@
     }, 
     "State": "Maine", 
     "Income": {
-      "Median Houseold Income": 48453, 
+      "Median Household Income": 48453, 
       "Per Capita Income": 26824, 
       "Persons Below Poverty Level": 13.6
     }, 
@@ -1567,7 +1567,7 @@
     }, 
     "State": "Maryland", 
     "Income": {
-      "Median Houseold Income": 73538, 
+      "Median Household Income": 73538, 
       "Per Capita Income": 36354, 
       "Persons Below Poverty Level": 9.8
     }, 
@@ -1640,7 +1640,7 @@
     }, 
     "State": "Massachusetts", 
     "Income": {
-      "Median Houseold Income": 66866, 
+      "Median Household Income": 66866, 
       "Per Capita Income": 35763, 
       "Persons Below Poverty Level": 11.4
     }, 
@@ -1713,7 +1713,7 @@
     }, 
     "State": "Michigan", 
     "Income": {
-      "Median Houseold Income": 48411, 
+      "Median Household Income": 48411, 
       "Per Capita Income": 25681, 
       "Persons Below Poverty Level": 16.8
     }, 
@@ -1786,7 +1786,7 @@
     }, 
     "State": "Minnesota", 
     "Income": {
-      "Median Houseold Income": 59836, 
+      "Median Household Income": 59836, 
       "Per Capita Income": 30913, 
       "Persons Below Poverty Level": 11.5
     }, 
@@ -1859,7 +1859,7 @@
     }, 
     "State": "Mississippi", 
     "Income": {
-      "Median Houseold Income": 39031, 
+      "Median Household Income": 39031, 
       "Per Capita Income": 20618, 
       "Persons Below Poverty Level": 22.7
     }, 
@@ -1932,7 +1932,7 @@
     }, 
     "State": "Missouri", 
     "Income": {
-      "Median Houseold Income": 47380, 
+      "Median Household Income": 47380, 
       "Per Capita Income": 25649, 
       "Persons Below Poverty Level": 15.5
     }, 
@@ -2005,7 +2005,7 @@
     }, 
     "State": "Montana", 
     "Income": {
-      "Median Houseold Income": 46230, 
+      "Median Household Income": 46230, 
       "Per Capita Income": 25373, 
       "Persons Below Poverty Level": 15.2
     }, 
@@ -2078,7 +2078,7 @@
     }, 
     "State": "Nebraska", 
     "Income": {
-      "Median Houseold Income": 51672, 
+      "Median Household Income": 51672, 
       "Per Capita Income": 26899, 
       "Persons Below Poverty Level": 12.8
     }, 
@@ -2151,7 +2151,7 @@
     }, 
     "State": "Nevada", 
     "Income": {
-      "Median Houseold Income": 52800, 
+      "Median Household Income": 52800, 
       "Per Capita Income": 26589, 
       "Persons Below Poverty Level": 15.0
     }, 
@@ -2224,7 +2224,7 @@
     }, 
     "State": "New Hampshire", 
     "Income": {
-      "Median Houseold Income": 64916, 
+      "Median Household Income": 64916, 
       "Per Capita Income": 33134, 
       "Persons Below Poverty Level": 8.7
     }, 
@@ -2297,7 +2297,7 @@
     }, 
     "State": "New Jersey", 
     "Income": {
-      "Median Houseold Income": 71629, 
+      "Median Household Income": 71629, 
       "Per Capita Income": 36027, 
       "Persons Below Poverty Level": 10.4
     }, 
@@ -2370,7 +2370,7 @@
     }, 
     "State": "New Mexico", 
     "Income": {
-      "Median Houseold Income": 44927, 
+      "Median Household Income": 44927, 
       "Per Capita Income": 23763, 
       "Persons Below Poverty Level": 20.4
     }, 
@@ -2443,7 +2443,7 @@
     }, 
     "State": "New York", 
     "Income": {
-      "Median Houseold Income": 58003, 
+      "Median Household Income": 58003, 
       "Per Capita Income": 32382, 
       "Persons Below Poverty Level": 15.3
     }, 
@@ -2516,7 +2516,7 @@
     }, 
     "State": "North Carolina", 
     "Income": {
-      "Median Houseold Income": 46334, 
+      "Median Household Income": 46334, 
       "Per Capita Income": 25284, 
       "Persons Below Poverty Level": 17.5
     }, 
@@ -2589,7 +2589,7 @@
     }, 
     "State": "North Dakota", 
     "Income": {
-      "Median Houseold Income": 53741, 
+      "Median Household Income": 53741, 
       "Per Capita Income": 29732, 
       "Persons Below Poverty Level": 11.9
     }, 
@@ -2662,7 +2662,7 @@
     }, 
     "State": "Ohio", 
     "Income": {
-      "Median Houseold Income": 48308, 
+      "Median Household Income": 48308, 
       "Per Capita Income": 26046, 
       "Persons Below Poverty Level": 15.8
     }, 
@@ -2735,7 +2735,7 @@
     }, 
     "State": "Oklahoma", 
     "Income": {
-      "Median Houseold Income": 45339, 
+      "Median Household Income": 45339, 
       "Per Capita Income": 24208, 
       "Persons Below Poverty Level": 16.9
     }, 
@@ -2808,7 +2808,7 @@
     }, 
     "State": "Oregon", 
     "Income": {
-      "Median Houseold Income": 50229, 
+      "Median Household Income": 50229, 
       "Per Capita Income": 26809, 
       "Persons Below Poverty Level": 16.2
     }, 
@@ -2881,7 +2881,7 @@
     }, 
     "State": "Pennsylvania", 
     "Income": {
-      "Median Houseold Income": 52548, 
+      "Median Household Income": 52548, 
       "Per Capita Income": 28502, 
       "Persons Below Poverty Level": 13.3
     }, 
@@ -2954,7 +2954,7 @@
     }, 
     "State": "Rhode Island", 
     "Income": {
-      "Median Houseold Income": 56361, 
+      "Median Household Income": 56361, 
       "Per Capita Income": 30469, 
       "Persons Below Poverty Level": 13.6
     }, 
@@ -3027,7 +3027,7 @@
     }, 
     "State": "South Carolina", 
     "Income": {
-      "Median Houseold Income": 44779, 
+      "Median Household Income": 44779, 
       "Per Capita Income": 23943, 
       "Persons Below Poverty Level": 18.1
     }, 
@@ -3100,7 +3100,7 @@
     }, 
     "State": "South Dakota", 
     "Income": {
-      "Median Houseold Income": 49495, 
+      "Median Household Income": 49495, 
       "Per Capita Income": 25740, 
       "Persons Below Poverty Level": 14.1
     }, 
@@ -3173,7 +3173,7 @@
     }, 
     "State": "Tennessee", 
     "Income": {
-      "Median Houseold Income": 44298, 
+      "Median Household Income": 44298, 
       "Per Capita Income": 24409, 
       "Persons Below Poverty Level": 17.6
     }, 
@@ -3246,7 +3246,7 @@
     }, 
     "State": "Texas", 
     "Income": {
-      "Median Houseold Income": 51900, 
+      "Median Household Income": 51900, 
       "Per Capita Income": 26019, 
       "Persons Below Poverty Level": 17.6
     }, 
@@ -3319,7 +3319,7 @@
     }, 
     "State": "Utah", 
     "Income": {
-      "Median Houseold Income": 58821, 
+      "Median Household Income": 58821, 
       "Per Capita Income": 23873, 
       "Persons Below Poverty Level": 12.7
     }, 
@@ -3392,7 +3392,7 @@
     }, 
     "State": "Vermont", 
     "Income": {
-      "Median Houseold Income": 54267, 
+      "Median Household Income": 54267, 
       "Per Capita Income": 29167, 
       "Persons Below Poverty Level": 11.8
     }, 
@@ -3465,7 +3465,7 @@
     }, 
     "State": "Virginia", 
     "Income": {
-      "Median Houseold Income": 63907, 
+      "Median Household Income": 63907, 
       "Per Capita Income": 33493, 
       "Persons Below Poverty Level": 11.3
     }, 
@@ -3538,7 +3538,7 @@
     }, 
     "State": "Washington", 
     "Income": {
-      "Median Houseold Income": 59478, 
+      "Median Household Income": 59478, 
       "Per Capita Income": 30742, 
       "Persons Below Poverty Level": 13.4
     }, 
@@ -3611,7 +3611,7 @@
     }, 
     "State": "West Virginia", 
     "Income": {
-      "Median Houseold Income": 41043, 
+      "Median Household Income": 41043, 
       "Per Capita Income": 22966, 
       "Persons Below Poverty Level": 17.9
     }, 
@@ -3684,7 +3684,7 @@
     }, 
     "State": "Wisconsin", 
     "Income": {
-      "Median Houseold Income": 52413, 
+      "Median Household Income": 52413, 
       "Per Capita Income": 27523, 
       "Persons Below Poverty Level": 13.0
     }, 
@@ -3757,7 +3757,7 @@
     }, 
     "State": "Wyoming", 
     "Income": {
-      "Median Houseold Income": 57406, 
+      "Median Household Income": 57406, 
       "Per Capita Income": 28902, 
       "Persons Below Poverty Level": 11.5
     }, 

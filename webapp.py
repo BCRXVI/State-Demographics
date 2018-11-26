@@ -7,16 +7,14 @@ def fun_fact(state):
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
     boi = 0
-    higheststate = ''
     for s in states:
         if s["State"] == state:
-            
+            print(s['Income']['Median Household Income'])
             if (s['Income']['Median Household Income'] > boi):
                 print("here") 
                 boi = s['Income']['Median Household Income']
                 higheststate = s['State']
-    return state + ' ' + higheststate + ' ' + str(boi)
-    print(state)
+    return state + "'s Median Household Income is " + "$"+"{:,}".format(boi)
 
 @app.route("/") #annotation tells the URL that will make this function run
 def render_main():
