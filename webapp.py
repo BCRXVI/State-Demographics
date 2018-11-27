@@ -9,9 +9,7 @@ def fun_fact(state):
     boi = 0
     for s in states:
         if s["State"] == state:
-            print(s['Income']['Median Household Income'])
             if (s['Income']['Median Household Income'] > boi):
-                print("here") 
                 boi = s['Income']['Median Household Income']
                 higheststate = s['State']
     return state + "'s Median Household Income is " + "$"+"{:,}".format(boi)
@@ -23,7 +21,6 @@ def render_main():
     try:
         state = request.args['states']
         ff=fun_fact(state)
-        print(ff)
         return render_template('home.html', states = get_state_options(states), funfact = ff)
     except:
         return render_template('home.html', states = get_state_options(states))

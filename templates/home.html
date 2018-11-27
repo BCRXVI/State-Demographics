@@ -1,37 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Home - My Webpage</title>
-  </head>
-  <body>
-    <!--nav bar-->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>	
-          <a class="navbar-brand" href="#">My Website</a>
-        </div>
-		<div id="myNavbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Median Income</a></li>
-            <li><a href="page1.html">Page 1</a></li>
-            <li><a href="page2.html">Page 2</a></li>
-          </ul>
-		</div>  
-      </div>
-    </nav>
-  <title>Home - My Webpage</title>
-  </head>
-  <body  style="background-color:black; color:white; font:arial;">
-    <h1 style="font-family:arial"> Home Page </h1>
+	{%extends "layout.html"%}
+	{% set active_page = "Home" %}
+	{%block title%}Home{%endblock%}
+    {%block content%}
+	<h1> Median Income </h1>
 	<form action=".">
 		<select name="states">
 			{{ states }}
@@ -40,6 +11,5 @@
 			Submit
 		</button>
 	</form>	
-	<p style="font-family:arial"> {{ funfact }} </p>
-  </body>
-</html>
+	<p> {{ funfact }} </p>
+	{%endblock%}
