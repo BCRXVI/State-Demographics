@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	
 	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
   {%block title%}{%endblock%}
   </head>
@@ -19,7 +18,7 @@
             <li {% if active_page == "Home" %} class="active"{%endif%}><a href=".">Median Income</a></li>
             <li {% if active_page == "Page 1" %} class="active"{%endif%}><a href="/page1">Page 1</a></li>
             <li {% if active_page == "Page 2" %} class="active"{%endif%}><a href="/page2">Page 2</a></li>
-			<li {% if active_page == "Page 3" %} class="active"{%endif%}><a href="/page3">Page 3</a></li>
+			<li {% if active_page == "Page 3" %} class="active"{%endif%}><a href="/page3">About this Data</a></li>
           </ul>
       </div>
     </nav>
