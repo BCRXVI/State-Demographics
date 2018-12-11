@@ -28,8 +28,6 @@ def render_main():
 def get_state_options(states):
   bom=[]
   
-
-  
   for state in states:
     state = state["State"]
     trfl = state in bom
@@ -46,7 +44,31 @@ def get_state_options(states):
 @app.route("/page1")
 def page1():
     return render_template('page1.html')
+    def fun_fact(state):
+        with open('state_demographics.json') as demographics_data:
+            pop = json.load(demographics_data)
+        boi = 0
+        for s in states:
+            if s["State"] == state:
+                if (s['Population']['2014 Population '] > boi):
+                    boi = s['Population']['2014 Population']
+                    state = s['Population']
+        return state + "'s Population in 2014 is "+ boi
     
+    bom=[]
+  
+    for state in states:
+        state = state["State"]
+        trfl = state in bom
+        if (trfl == False):
+            bom.append(state)
+      
+      
+    options = ""
+    for state in bom:
+        options += Markup("<option value=\"" + state + "\">" + state + "</option>")
+
+    return options
 @app.route("/page2")
 def page2():
     return render_template('page2.html')
