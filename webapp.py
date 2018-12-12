@@ -14,7 +14,7 @@ def fun_fact(state):
                 higheststate = s['State']
     return state + "'s Median Household Income is " + "$"+"{:,}".format(boi)
 
-@app.route("/") #annotation tells the URL that will make this function run
+@app.route("/.") #annotation tells the URL that will make this function run
 def render_main():
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
@@ -45,11 +45,6 @@ def get_state_options(states):
 def page1():
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
-    return render_template('page1.html', states = get_state_options(states))
-
-def b_b(state):
-    with open('state_demographics.json') as demographics_data:
-        states = json.load(demographics_data)
     boi = 0
     for s in states:
         if s["State"] == state:
@@ -58,20 +53,17 @@ def b_b(state):
                 state = s['Population']
     return state + "'s Population in 2014 is "+ boi
 
-    bom=[]
+def b_b(state):
+    with open('state_demographics.json') as demographics_data:
+        states = json.load(demographics_data)
+        try:
+            bb=b_b(state)
+            return render_template('page1.html', states = get_state_options(states), b_b = bb)
+        except:
+            return render_template('home.html', states = get_state_options(states))
 
-    for state in states:
-        state = state["State"]
-        trfl = state in bom
-        if (trfl == False):
-            bom.append(state)
 
-
-    options = ""
-    for state in bom:
-        options += Markup("<option value=\"" + state + "\">" + state + "</option>")
-
-    return options
+            return options
 @app.route("/page2")
 def page2():
     return render_template('page2.html')
