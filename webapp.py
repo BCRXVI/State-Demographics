@@ -14,7 +14,7 @@ def fun_fact(state):
                 higheststate = s['State']
     return state + "'s Median Household Income is " + "$"+"{:,}".format(boi)
 
-@app.route("/.") #annotation tells the URL that will make this function run
+@app.route("/") #annotation tells the URL that will make this function run
 def render_main():
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
@@ -41,29 +41,30 @@ def get_state_options(states):
 
   return options
 
-@app.route("/page1")
-def page1():
+def page1(state):
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
     boi = 0
+    state = 0
     for s in states:
         if s["State"] == state:
             if (s['Population']['2014 Population '] > boi):
                 boi = s['Population']['2014 Population']
                 state = s['Population']
-    return state + "'s Population in 2014 is "+ boi
+    return str(state) + "'s Population in 2014 is " + str(boi)
 
-def b_b(state):
+@app.route("/page1")
+def b_b():
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
         try:
             bb=b_b(state)
             return render_template('page1.html', states = get_state_options(states), b_b = bb)
         except:
-            return render_template('home.html', states = get_state_options(states))
-
+            return render_template('page1.html', states = get_state_options(states))
 
             return options
+
 @app.route("/page2")
 def page2():
     return render_template('page2.html')
