@@ -45,19 +45,19 @@ def page1(state):
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
     boi = 0
-    state = 0
     for s in states:
         if s["State"] == state:
             if (s['Population']['2014 Population '] > boi):
                 boi = s['Population']['2014 Population']
                 state = s['Population']
-    return str(state) + "'s Population in 2014 is " + str(boi)
+    return state + "'s Population in 2014 is " + '2014 Population'
 
 @app.route("/page1")
 def b_b():
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
         try:
+            state = request.args['states']
             bb=b_b(state)
             return render_template('page1.html', states = get_state_options(states), b_b = bb)
         except:
