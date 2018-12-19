@@ -44,26 +44,26 @@ def get_state_options(states):
 def page1(state):
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
-    boi = 0
+    hgf = 0
     for s in states:
         if s["State"] == state:
-            if (s['Population']['2014 Population '] > boi):
-                boi = s['Population']['2014 Population']
-                state = s['Population']
-    return state + "'s Population in 2014 is " + '2014 Population'
+            if (s['Population']['2014 Population'] > hgf):
+                hgf = s['Population']['2014 Population']
+                states = s['Population']
+    return state + "'s Population in 2014 is " + "{:,}".format(hgf) + " people."
 
 @app.route("/page1")
 def b_b():
     with open('state_demographics.json') as demographics_data:
         states = json.load(demographics_data)
-        try:
-            state = request.args['states']
-            bb=b_b(state)
-            return render_template('page1.html', states = get_state_options(states), b_b = bb)
-        except:
-            return render_template('page1.html', states = get_state_options(states))
+    try:
+        state = request.args['states']
+        bb=page1(state)
+        return render_template('page1.html', states = get_state_options(states), b_b = bb)
+    except:
+        return render_template('page1.html', states = get_state_options(states))
 
-            return options
+        return options
 
 @app.route("/page2")
 def page2():
